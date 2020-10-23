@@ -85,9 +85,9 @@
   </div>
   <!-- End about Section -->
   <!-- Start projects Section -->
-  <div id="projects" class="offset text-center col-lg-12 ">
-    <h1>Projects</h1>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+  <div id="projects" class="offset text-center col-md-12 ">
+    <h1 class="text-warning">Projects</h1>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 col-sm-10 offset-sm-1">
       <div class="col mb-4">
         <div class="card h-100 border-light shadow-lg">
           <a href="https://blooming-everglades-09738.herokuapp.com" target="blank"><img src="/assets/img/trivia.jpg" class="card-img-top" alt="..." ></a>
@@ -118,7 +118,7 @@
           </div>
         </div>
       </div>
-      <div class="col mb-4">
+      <div class="col mb-4 ">
         <div class="card h-100 border-light shadow-lg">
           <img src="/assets/img/pic11.jpg" class="card-img-top" alt="...">    
           <div class="card-body btn-outline-success btnPopover" title= "Title" data-placement="top"
@@ -151,7 +151,7 @@
     </div>
   </div>
 
-  <nav aria-label="Page navigation example">
+  <!-- <nav aria-label="Page navigation example">
     <ul class="pagination">
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Previous">
@@ -167,16 +167,44 @@
         </a>
       </li>
     </ul>
-  </nav>
+  </nav> -->
   <!-- End projects Section -->
 
 
   <!-- Start contact Section -->
   <div id="contact" class="offset">
-
+    <h1 class="offset-sm-1 offset-lg-2 text-info">contacts</h1>
+    <div class="row col-xl-8 col-sm-10 offset-sm-1 offset-xl-2">
+      <div class="col-md-6 col-sm-12" id="contactTextArea">
+        <h6>Have a questions, offers on cooperation?</h6>
+        <h6>Feel free to contact me!</h6>
+        <br>
+        <br>
+        <h6>Saleh, Shady</h6>
+        <br>
+        <h6>shadysaleh01@gmail.com</h6>
+        <br>
+        <h6>+1(714)203-4290</h6>
+      </div>
+      <form role = "form" class="col-md-6 col-sm-12" id="formArea">
+        <div class = "form-group">
+          <!-- <label for = "name">Player</label> -->
+          <input type = "text" class = "form-control form-control-lg " margin-bottom="20px" placeholder = "Name">
+        </div>
+        <div class = "form-group">
+          <label for = "name"></label>
+          <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class = "form-group">
+          <label for = "name"></label>
+          <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
+        </div>
+        <button type="button" class="btn btn-info">SEND MESSAGE</button>
+      </form>
+    </div>
   </div>
   <!-- End contact Section -->
-
+  
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
