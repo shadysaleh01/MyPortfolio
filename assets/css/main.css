@@ -42,12 +42,13 @@ body {
 }
 
 /*----- Landing Page -----*/
-.landing {
-   background-image: url(/assets/img/background5.jpg);
+.landing img {
+   /* background-image: url(/assets/img/banner2.jpg); */
    /* background-color: tomato; */
-   background-repeat: no-repeat;
-   height: 600px;
-   width: 100%;
+   /* background-repeat: no-repeat;
+   height: 600px;*/
+   width: 100%; 
+
 }
 .caption{
    width: 100%;
@@ -94,14 +95,18 @@ body {
    letter-spacing: .3rem;
 }
 
-#aboutImg, #aboutTxt{
+#aboutImg{
    margin: auto;
+}
+#aboutTxt {
+   margin: auto;
+   font-size: 20px;
 }
 
 /*-------- Project Section ---------*/
 #projects {
    padding-top: 17%;
-   padding-bottom: 10%;
+   /* padding-bottom: 10%; */
    /* background-color: darkgrey; */
    max-width: 1500px;
    margin: auto;
@@ -109,7 +114,7 @@ body {
 #projects h1 {
    padding-bottom: 3%;
    font-family: 'Cuprum', sans-serif;
-   font-size: 90px;
+   font-size: 100px;
 }
 
 #projects img {
@@ -119,7 +124,8 @@ body {
 
 /* --------- Contact Section ----------- */
 #contact {
-   padding: 10% 0
+   padding: 10% 0;
+   margin: 10% 0
 }
 
 #contactTextArea {
@@ -129,6 +135,12 @@ body {
 
 #contact h1 {
    margin-bottom: 40px;
-   font-size: 90px;
+   font-size: 100px;
    font-family: 'Cuprum', sans-serif;
 }
+footer i{
+   color:black
+}
+
+
+
