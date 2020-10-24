@@ -61,15 +61,18 @@ body {
 
  .bgimg-2 {
    background-image: url("/assets/img/coffee.jpg");
-   min-height: 400px;
-   margin-top: 17%;
+   min-height: 300px;
+   /* margin-top: 10%; */
    font-size: 120px;
    font-family: 'Cuprum', sans-serif
  }
  @media only screen and (max-device-width: 1600px) {
-   .bgimg-1, .bgimg-2, .bgimg-3 {
-     background-attachment: scroll;
-     min-height: 400px;
+   .bgimg-2, .bgimg-3 {
+     min-height: 300px;
+   }
+   .bgimg-1 {
+
+     min-height: 600px;
    }
  }
 /* .img-fluid {
@@ -120,7 +123,8 @@ body {
 
 /*--------------- About Me section ----------------*/
 #about {
-   padding-top: 20%;
+   padding-top: 10%;
+   padding-bottom: 10%;
    /* color: white; */
    max-width: 1600px;
    margin: auto;
@@ -142,27 +146,27 @@ body {
 }
 
 /*-------- Project Section ---------*/
-#projects {
+#divProjects {
   padding-top: 2%;
    padding-bottom: 8%;
    /* background-color: darkgrey; */
    max-width: 1600px;
    margin: auto;
 }
-#projects h1 {
+#divProjects h1 {
    padding-bottom: 3%;
    font-family: 'Cuprum', sans-serif;
    font-size: 100px;
 }
 
-#projects img {
+#divProjects img {
    height: 280px;
 
 }
 
 /* --------- Contact Section ----------- */
 #contact {
-   padding: 10% 0;
+   padding: 7% 0;
    margin: 10% 0;
    margin: auto;
    max-width: 1600px;
